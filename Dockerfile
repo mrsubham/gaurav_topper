@@ -7,4 +7,4 @@ COPY server.js .
 ENV REDIS_HOST=amadeus
 CMD ["nodemon", "-L", "server.js"]
 #CMD ["node", "server.js"]
-
+CMD ("echo","hello")
